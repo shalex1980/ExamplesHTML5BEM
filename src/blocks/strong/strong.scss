@@ -1,0 +1,10 @@
+.strong {
+	padding: 100px 0;
+	background: #f6f2f2;
+	&__flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+		align-content: center;
+	}
+}

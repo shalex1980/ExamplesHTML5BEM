@@ -1,0 +1,21 @@
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	height: 100%;
+
+	&__link {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 20px;
+		text-transform: uppercase;
+		text-decoration: none;
+		transition: all 0.3s;
+		outline: solid 1px white;
+		&:hover {
+			color: #fff;
+			background: #ff3f40;
+		}
+	}
+}

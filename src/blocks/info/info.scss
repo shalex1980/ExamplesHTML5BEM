@@ -1,0 +1,11 @@
+.info {
+	outline: solid 1px black;
+	&__title{
+		margin-top: 0;
+		font: {
+			size: 3em;
+			weight: 800;
+		}
+		text-transform: uppercase;
+	}
+}

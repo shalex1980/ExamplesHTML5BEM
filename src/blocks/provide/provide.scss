@@ -1,0 +1,17 @@
+.provide {
+	&__info {
+		width: 50%;
+	}
+	&__flex {
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: stretch;
+		align-content: center;
+	}
+	&-info__title {
+		font: {
+			weight: 700;
+		}
+		color: #585858;
+	}
+}
